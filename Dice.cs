@@ -7,19 +7,19 @@ namespace DiceRoller
     public class Dice
     {
 	 	private readonly int _diceSize = 6;
-		
+		private readonly Random _random;
 
 		public Dice()
 		{
 			DiceSize = _diceSize;
-			Random rand = new Random();
+			Random _random = new Random();
 			
 
 		}
 		public Dice(int diceSize)
 		{
 			DiceSize = diceSize;
-			Random rand = new Random();
+			Random _random = new Random();
 			
 
 		}
@@ -29,7 +29,7 @@ namespace DiceRoller
 		public int Roll()
 		{
 			
-			return(rand.Next(1,DiceSize));
+			return(_random.Next(1,DiceSize));
 
 		}
 
