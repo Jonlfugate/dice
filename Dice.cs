@@ -8,7 +8,7 @@ namespace DiceRoller
     {
 		private int diceValue;
 		private int topEnd;
-		public int DiveValue
+		public int DiceValue
 		{
 			get { return diceValue; }
 			set 

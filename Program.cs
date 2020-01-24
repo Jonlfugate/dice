@@ -9,8 +9,8 @@ namespace DiceRoller
 
             Dice dice = new Dice();
             Console.WriteLine("enter a dice size");
-            dice.DiveValue = int.Parse(Console.ReadLine());
-            Console.WriteLine(dice.DiveValue);
+            dice.DiceValue = int.Parse(Console.ReadLine());
+            Console.WriteLine(dice.DiceValue);
         }
     }
 }
