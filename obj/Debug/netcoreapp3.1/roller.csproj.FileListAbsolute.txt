@@ -1,0 +1,11 @@
+c:\Users\jonatahn fugate\Codeforproject\roller\bin\Debug\netcoreapp3.1\roller.exe
+C:\Users\jonatahn fugate\Codeforproject\roller\bin\Debug\netcoreapp3.1\roller.deps.json
+C:\Users\jonatahn fugate\Codeforproject\roller\bin\Debug\netcoreapp3.1\roller.runtimeconfig.json
+C:\Users\jonatahn fugate\Codeforproject\roller\bin\Debug\netcoreapp3.1\roller.runtimeconfig.dev.json
+c:\Users\jonatahn fugate\Codeforproject\roller\bin\Debug\netcoreapp3.1\roller.dll
+c:\Users\jonatahn fugate\Codeforproject\roller\bin\Debug\netcoreapp3.1\roller.pdb
+c:\Users\jonatahn fugate\Codeforproject\roller\obj\Debug\netcoreapp3.1\roller.csprojAssemblyReference.cache
+c:\Users\jonatahn fugate\Codeforproject\roller\obj\Debug\netcoreapp3.1\roller.AssemblyInfoInputs.cache
+c:\Users\jonatahn fugate\Codeforproject\roller\obj\Debug\netcoreapp3.1\roller.AssemblyInfo.cs
+c:\Users\jonatahn fugate\Codeforproject\roller\obj\Debug\netcoreapp3.1\roller.dll
+c:\Users\jonatahn fugate\Codeforproject\roller\obj\Debug\netcoreapp3.1\roller.pdb
