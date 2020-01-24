@@ -27,7 +27,7 @@ namespace DiceRoller
 		public int Roll()
 		{
 			
-			return(_random.Next(1,DiceSize));
+			return(_random.Next(1,DiceSize+1));
 
 		}
 

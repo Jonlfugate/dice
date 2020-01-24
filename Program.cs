@@ -6,9 +6,12 @@ namespace DiceRoller
     {
         static void Main(string[] args)
         {
-            var d20 = new Dice(20);
-            
-            System.Console.WriteLine(d20.Roll());
+            var d20 = new Dice(10000);
+            for (int i = 0; i < 1000; i++)
+            {
+                System.Console.WriteLine(d20.Roll());
+                
+            } 
             
         }
     }
