@@ -12,16 +12,14 @@ namespace DiceRoller
 		public Dice()
 		{
 			DiceSize = _diceSize;
-			Random _random = new Random();
+			_random = new Random();
 			
-
 		}
 		public Dice(int diceSize)
 		{
 			DiceSize = diceSize;
-			Random _random = new Random();
+			_random = new Random();
 			
-
 		}
 
 		public int DiceSize { get; private set; }
