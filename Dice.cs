@@ -7,17 +7,20 @@ namespace DiceRoller
     public class Dice
     {
 	 	private readonly int _diceSize = 6;
+		
 
 		public Dice()
 		{
 			DiceSize = _diceSize;
 			Random rand = new Random();
+			
 
 		}
 		public Dice(int diceSize)
 		{
 			DiceSize = diceSize;
 			Random rand = new Random();
+			
 
 		}
 
