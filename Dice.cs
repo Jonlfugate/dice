@@ -6,18 +6,18 @@ namespace DiceRoller
 {
     public class Dice
     {
-	 	private static int diceSize = 6;
+	 	private readonly int _diceSize = 6;
 
 		public Dice()
 		{
-			DiceSize = _diceSize
+			DiceSize = _diceSize;
 		}
 		public Dice(int diceSize)
 		{
 			DiceSize = diceSize;
 		}
 
-		private int _diceSize { get; set; }
+		public int DiceSize { get; set; }
 		
 		public int Roll()
 		{
