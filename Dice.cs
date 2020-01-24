@@ -17,16 +17,14 @@ namespace DiceRoller
 			DiceSize = diceSize;
 		}
 
-		public int DiceSize { get; set; }
+		public int DiceSize { get; private set; }
 		
 		public int Roll()
 		{
 			Random rand = new Random();
-			{
-				return(rand.Next(1, DiceSize));
-
-			}
 			
+			return(rand.Next(1,DiceSize));
+
 		}
 
 	}

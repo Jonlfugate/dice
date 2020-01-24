@@ -8,7 +8,7 @@ namespace DiceRoller
         {
             var d20 = new Dice(20);
             
-            System.Console.WriteLine(Dice.Roll());
+            System.Console.WriteLine(d20.Roll());
             
         }
     }
