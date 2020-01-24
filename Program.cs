@@ -6,11 +6,9 @@ namespace DiceRoller
     {
         static void Main(string[] args)
         {
-
-            Dice dice = new Dice();
-            Console.WriteLine("enter a dice size");
-            dice.DiceValue = int.Parse(Console.ReadLine());
-            Console.WriteLine(dice.DiceValue);
+            
+            System.Console.WriteLine(Dice.rollDice());
+            
         }
     }
 }

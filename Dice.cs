@@ -6,19 +6,24 @@ namespace DiceRoller
 {
     class Dice
     {
-		private int diceValue;
-		private int topEnd;
-		public int DiceValue
+	 	static int diceSize = 6;
+		public Dice(int diceSize)
 		{
-			get { return diceValue; }
-			set 
-			{ 
-				topEnd = value;
-				Random rand = new Random();
-				diceValue = (rand.Next(1 , topEnd));
-			}
-
+			DiceSize = diceSize;
 		}
+
+		public int DiceSize { get; private set; }
+		
+		public static int rollDice()
+		{
+			Random rand = new Random();
+			{
+				return(rand.Next(1, diceSize));
+
+			}
+			
+		}
+
 
 	}
 }

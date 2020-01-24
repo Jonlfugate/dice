@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj": {}
+    "C:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj": {
+    "C:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj",
+        "projectUniqueName": "C:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj",
         "projectName": "roller",
-        "projectPath": "c:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj",
+        "projectPath": "C:\\Users\\jonatahn fugate\\Codeforproject\\roller\\roller.csproj",
         "packagesPath": "C:\\Users\\jonatahn fugate\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jonatahn fugate\\Codeforproject\\roller\\obj\\",
+        "outputPath": "C:\\Users\\jonatahn fugate\\Codeforproject\\roller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonatahn fugate\\AppData\\Roaming\\NuGet\\NuGet.Config",
