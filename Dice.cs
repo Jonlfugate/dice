@@ -11,17 +11,20 @@ namespace DiceRoller
 		public Dice()
 		{
 			DiceSize = _diceSize;
+			Random rand = new Random();
+
 		}
 		public Dice(int diceSize)
 		{
 			DiceSize = diceSize;
+			Random rand = new Random();
+
 		}
 
 		public int DiceSize { get; private set; }
 		
 		public int Roll()
 		{
-			Random rand = new Random();
 			
 			return(rand.Next(1,DiceSize));
 
