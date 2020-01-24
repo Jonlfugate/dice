@@ -4,17 +4,19 @@ using System.Text;
 
 namespace DiceRoller
 {
-    class Dice
+    public class Dice
     {
-	 	static int diceSize = 6;
+	 	private static int diceSize = 6;
+
+		public Dice(){}
 		public Dice(int diceSize)
 		{
-			DiceSize = diceSize;
+			diceSize = DiceSize;
 		}
 
-		public int DiceSize { get; private set; }
+		public int DiceSize { get; set; }
 		
-		public static int rollDice()
+		public int Roll()
 		{
 			Random rand = new Random();
 			{
@@ -23,7 +25,6 @@ namespace DiceRoller
 			}
 			
 		}
-
 
 	}
 }
