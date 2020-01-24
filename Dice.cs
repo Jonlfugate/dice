@@ -8,19 +8,22 @@ namespace DiceRoller
     {
 	 	private static int diceSize = 6;
 
-		public Dice(){}
+		public Dice()
+		{
+			DiceSize = _diceSize
+		}
 		public Dice(int diceSize)
 		{
-			diceSize = DiceSize;
+			DiceSize = diceSize;
 		}
 
-		public int DiceSize { get; set; }
+		private int _diceSize { get; set; }
 		
 		public int Roll()
 		{
 			Random rand = new Random();
 			{
-				return(rand.Next(1, diceSize));
+				return(rand.Next(1, DiceSize));
 
 			}
 			
